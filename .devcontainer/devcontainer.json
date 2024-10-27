@@ -1,0 +1,10 @@
+{
+	"runArgs": [
+			// to be able to readlink /proc/*/cwd
+			"--cap-add=SYS_PTRACE"
+	],
+	"name": "Debian",
+	// "image": "mcr.microsoft.com/devcontainers/base:bullseye",
+	"image": "mcr.microsoft.com/devcontainers/base:bookworm",
+	"remoteUser": "root"
+}
